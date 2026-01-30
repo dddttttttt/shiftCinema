@@ -1,4 +1,4 @@
-import NavButton from "./Buttons"
+import { NavButton } from "./Buttons"
 
 const NavBar = () => {
     return ( 

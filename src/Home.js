@@ -16,7 +16,7 @@ const Home = () => {
 
     return ( 
         <div className="home-container">
-            <h1>Афиша</h1>
+            <h1 id="header">Афиша</h1>
             {films && <FilmCardsList films={ films } />}
         </div>
      );

@@ -1,3 +1,5 @@
+import { NextButton } from "./Buttons";
+
 const FilmCard = (film) => {
     film = film.film
 
@@ -33,7 +35,7 @@ const FilmCard = (film) => {
                     <p>Kinopoisk {rating}</p>
                 </div>
             </div>
-            
+            <NextButton text="Подробнее"/>
 
         </div>
      );
