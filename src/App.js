@@ -1,7 +1,11 @@
+import Home from "./Home";
+import NavBar from "./Navbar";
+
 function App() {
   return (
     <div className="App">
-      <h1>Hello world i guess</h1>
+      <NavBar />
+      <Home />
     </div>
   );
 }
