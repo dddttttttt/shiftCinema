@@ -1,12 +1,23 @@
+import FilmDetails from "./FilmDetails";
 import Home from "./Home";
 import NavBar from "./Navbar";
+import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <Home />
-    </div>
+    <Router>
+      <div className="App">
+        <NavBar />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/film/:filmId">
+            <FilmDetails />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
