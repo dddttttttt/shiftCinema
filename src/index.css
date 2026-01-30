@@ -224,3 +224,12 @@ a {
   font-size: 20pt;
   margin-bottom: 40px;
 }
+
+.schedule-time-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#date-button-cur p {
+  color:#ed390c;
+}
