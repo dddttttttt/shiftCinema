@@ -37,3 +37,81 @@ body {
   font-size: 15pt;
   align-content: center;
 }
+
+.film-card-container {
+  width: 300px;
+  height: 520px;
+  border: 5px solid aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+  padding: 20px;
+}
+
+.film-card-image-container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.film-card-image-container img {
+  width: 300px;
+  height:fit-content;
+}
+
+.film-card-image-container #text {
+  position: absolute;
+  color: red;
+  background-color: aliceblue;
+  font-size: 15pt;
+  padding: 10px;
+  right: 0;
+  bottom: 0;
+}
+
+.film-card-image-container #text p {
+  margin: 0;
+}
+
+.film-card-information-container {
+  width: 300px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.film-card-information-container #text h1 {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.film-card-information-container #text p {
+  margin: 0;
+}
+
+.film-card-information-container #text{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.film-card-information-container #rating p{
+  margin: 0;
+}
+
+.film-card-information-container #rating{
+  margin-bottom: 10px;
+}
+
+.home-container h1 {
+  margin-bottom: 20px;
+}
+
+.film-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
