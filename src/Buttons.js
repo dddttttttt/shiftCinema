@@ -1,30 +1,32 @@
+import { Link } from "react-router-dom";
+
 const pageRedirect = () => {
     
 }
 
-const NavButton = (props) => {
+const NavButton = ({linkTo, imageSrc, text}) => {
 
-    return ( 
-        <div onClick={pageRedirect} className="nav-button-container">
-            <img src={props.imageSrc}/>
-            <h1>{props.text}</h1>
-        </div>
+    return (
+        <Link className="nav-button-container" to={linkTo}>
+            <img src={imageSrc}/>
+            <h1>{text}</h1>
+        </Link>
      );
 }
 
-const NextButton = ({text}) => {
+const NextButton = ({linkTo, text}) => {
     return ( 
-        <div onClick={pageRedirect} className="next-button">
+        <Link to={linkTo} className="next-button">
             <p>{text}</p>
-        </div>
+        </Link>
      );
 }
 
-const PrevButton = ({text}) => {
+const PrevButton = ({linkTo, text}) => {
     return ( 
-        <div onClick={pageRedirect} className="prev-button">
+        <Link to={linkTo} className="prev-button">
             <p>{text}</p>
-        </div>
+        </Link>
      );
 }
  

@@ -4,6 +4,8 @@ import {FilmCard, FilmCardsList} from "./Cards";
 const Home = () => {
     const [films, setFilms] = useState(null);
 
+    const abortContrl = new AbortController();
+
     useEffect(() => {
         fetch("https://shift-intensive.ru/api/cinema/films")
             .then(res => {
@@ -12,6 +14,7 @@ const Home = () => {
             .then(data => {
                 setFilms(data.films);
             });
+            return () => abortContrl.abort();
     }, []);
 
     return ( 
