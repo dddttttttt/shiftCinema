@@ -12,7 +12,7 @@ p {
   color:antiquewhite
 }
 
-.navigate-container {
+.nav-container {
   display: flex;
   justify-content: center;
 }
@@ -21,12 +21,24 @@ p {
   display: inline-flex;
   flex: 0.4;
   justify-content: right;
+  margin-right: 20px
 }
 
 .nav-left {
   display: inline-flex;
   flex: 0.6;
   justify-content: left;
+}
+
+.nav-logo {
+  display: flex;
+  font-size: 12pt;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.nav-logo img {
+  width: 70px;
 }
 
 .nav-button-container {
@@ -119,9 +131,9 @@ p {
   color:antiquewhite;
 }
 
-.film-card-information-container #text:hover p {
+/* .film-card-information-container #text:hover p {
   color:#ed390c;
-}
+} */
 
 .film-card-information-container #text p {
   margin: 0;
