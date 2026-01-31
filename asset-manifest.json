@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dddttttttt/shiftCinema/static/css/main.a9dd6cde.css",
+    "main.js": "/dddttttttt/shiftCinema/static/js/main.dea5e402.js",
+    "index.html": "/dddttttttt/shiftCinema/index.html",
+    "main.a9dd6cde.css.map": "/dddttttttt/shiftCinema/static/css/main.a9dd6cde.css.map",
+    "main.dea5e402.js.map": "/dddttttttt/shiftCinema/static/js/main.dea5e402.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9dd6cde.css",
+    "static/js/main.dea5e402.js"
+  ]
+}
