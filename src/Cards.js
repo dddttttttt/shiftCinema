@@ -18,11 +18,11 @@ const FilmInformation = ({inList, film}) => {
     const starsRating = []
     for (let i = 1; i <= 5; i++) {
         if (i*2 <= rating)
-            starsRating.push(<img src="/Icons/starFilledIcon.svg" key={i}/>);
+            starsRating.push(<img src="./Icons/starFilledIcon.svg" key={i}/>);
         else if (i*2-1 <= rating)
-            starsRating.push(<img src="/Icons/starHalfIcon.svg" key={i}/>);
+            starsRating.push(<img src="./Icons/starHalfIcon.svg" key={i}/>);
         else
-            starsRating.push(<img src="/Icons/starEmptyIcon.svg" key={i}/>);
+            starsRating.push(<img src="./Icons/starEmptyIcon.svg" key={i}/>);
     }
 
     const linkToName = () => {
