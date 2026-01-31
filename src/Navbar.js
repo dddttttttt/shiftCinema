@@ -6,14 +6,14 @@ const NavBar = () => {
         <nav className="nav-container">
             <div className='nav-left'>
                 <Link to="/" className="nav-logo">
-                    <img src="./Icons/mainIcon.svg"/>
+                    <img src="/shiftCinema/Icons/mainIcon.svg"/>
                     <h1>ABSOLUTE<br />CINEMA</h1>
                 </Link>
-                <NavButton linkTo="/profile" imageSrc="./Icons/profileIcon.svg" text="Профиль" />
-                <NavButton linkTo="/tickets" imageSrc="./Icons/ticketIcon.svg" text="Билеты" />
+                <NavButton linkTo="/profile" imageSrc="/shiftCinema/Icons/profileIcon.svg" text="Профиль" />
+                <NavButton linkTo="/tickets" imageSrc="/shiftCinema/Icons/ticketIcon.svg" text="Билеты" />
             </div>
             <div className="nav-right">
-                <NavButton linkTo="/exit" imageSrc="./Icons/exitIcon.svg" text="Выход"/>
+                <NavButton linkTo="/exit" imageSrc="/shiftCinema/Icons/exitIcon.svg" text="Выход"/>
             </div>
         </nav>
      );
