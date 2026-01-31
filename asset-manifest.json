@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9dd6cde.css",
-    "main.js": "/static/js/main.dea5e402.js",
-    "index.html": "/index.html",
-    "main.a9dd6cde.css.map": "/static/css/main.a9dd6cde.css.map",
-    "main.dea5e402.js.map": "/static/js/main.dea5e402.js.map"
+    "main.css": "/shiftCinema/static/css/main.a9dd6cde.css",
+    "main.js": "/shiftCinema/static/js/main.dea5e402.js",
+    "index.html": "/shiftCinema/index.html",
+    "main.a9dd6cde.css.map": "/shiftCinema/static/css/main.a9dd6cde.css.map",
+    "main.dea5e402.js.map": "/shiftCinema/static/js/main.dea5e402.js.map"
   },
   "entrypoints": [
     "static/css/main.a9dd6cde.css",
