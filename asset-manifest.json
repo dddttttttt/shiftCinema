@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/shiftCinema/static/css/main.a9dd6cde.css",
-    "main.js": "/shiftCinema/static/js/main.64c44ead.js",
+    "main.css": "/shiftCinema/static/css/main.cae77909.css",
+    "main.js": "/shiftCinema/static/js/main.832fa8a8.js",
     "index.html": "/shiftCinema/index.html",
-    "main.a9dd6cde.css.map": "/shiftCinema/static/css/main.a9dd6cde.css.map",
-    "main.64c44ead.js.map": "/shiftCinema/static/js/main.64c44ead.js.map"
+    "main.cae77909.css.map": "/shiftCinema/static/css/main.cae77909.css.map",
+    "main.832fa8a8.js.map": "/shiftCinema/static/js/main.832fa8a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9dd6cde.css",
-    "static/js/main.64c44ead.js"
+    "static/css/main.cae77909.css",
+    "static/js/main.832fa8a8.js"
   ]
 }
