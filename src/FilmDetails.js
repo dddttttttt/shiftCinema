@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { FilmCover, FilmInformation } from "./Cards";
 import { Schedule } from "./Schedule";
+import { NextButton } from "./Buttons";
 
 const FilmDetails = () => {
     const { filmId } = useParams();
@@ -44,6 +45,7 @@ const FilmDetails = () => {
                     <p>{film.description}</p>
                 </div>
             </div>
+            <h1>Расписание</h1>
             <Schedule schedules={schedule}/>
         </div>
      );
